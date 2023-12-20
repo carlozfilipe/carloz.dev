@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1F2028;
+  font-family: 'Rubik Scribble';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #707076;
+}
+
+.container h1 {
+  font-size: 8em;
+}
+
+.container p {
+  font-size: 4em;
+}
