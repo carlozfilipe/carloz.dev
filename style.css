@@ -32,7 +32,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: green;
+  color: aqua;
 }
 
 code {
@@ -44,5 +44,28 @@ code {
 }
 
 article {
+  padding: 20px;
   text-align: justify;
+  border: 1px solid white;
+}
+
+article h1,
+article h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+article ul li a {
+  color: deeppink;
+}
+
+section {
+  display: flex;
+  text-align: center;
+  border: 1px solid white;
+  justify-content: space-around;
+}
+
+section a {
+  color: crimson;
 }
