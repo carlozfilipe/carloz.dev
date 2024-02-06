@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat:wght@400;500;700&display=swap');
+
 body {
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;
   text-align: center;
@@ -53,6 +55,8 @@ article h1,
 article h2 {
   text-align: center;
   text-decoration: underline;
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
 }
 
 article ul li a {
@@ -68,4 +72,34 @@ section {
 
 section a {
   color: crimson;
+}
+
+@media (max-width: 630px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    width: 300px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-justify: distribute;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+  }
+
+  img {
+    padding: 50px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
 }
